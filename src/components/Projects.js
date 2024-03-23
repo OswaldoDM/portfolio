@@ -323,8 +323,8 @@ return(
                 mb-2 lg:pr-5 2xl:pr-20 mq
                 
                 `}>
-                        Full Art Website that works as a portfolio
-                         created with the Elementor page builder in Wordpress
+                        Full Website for a property management company
+                         created with Bricks builder in Wordpress
                 </p>
 
                 <div className='flex gap-1 justify-center lg:justify-start items-center w-full'>
