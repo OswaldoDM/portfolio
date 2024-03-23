@@ -236,7 +236,7 @@ return(
                 
                 `}>
                         Full website for event hosting services
-                        made with the Divi website builder in Wordpress.
+                        made with the Elementor builder in Wordpress.
                 </p>
 
                 <div className='flex gap-1 justify-center lg:justify-start items-center w-full'>
