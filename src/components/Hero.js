@@ -1,5 +1,6 @@
 import hero_img from './../assets/dev1.svg';
 import CT from './../assets/CryptoToday.png';
+import MG from './../assets/MG.png';
 import IN from './../assets/Influencer1.png';
 import Space from './../assets/Space.png';
 import { SiLinkedin } from 'react-icons/si';
@@ -35,7 +36,7 @@ return(
                 text-gray-800 text-center  mb-6
                 sm:text-[13px] md:text-sm
                 `}>
-                    Hi There! I'm a Front-End Developer with more than two years of experience.
+                    FullStack Developer with more than four years of experience.
                     I've created this portfolio to show some personal projects that I'm really proud of.
                 </p>
 
@@ -97,7 +98,7 @@ return(
                         `}>
                             <img src= {Space} />
                         </a>
-                        <a href='https://oswaldodm.github.io/react-cryptoToday/' target='_blank' 
+                        <a href='https://oswaldodm.github.io/react-mightyGifs/' target='_blank' 
                         className= 
                         {`flex-1 lg:border-[5px] xl:border-[6px]
                         2xl:border-8 border-gray-300
@@ -105,7 +106,7 @@ return(
                         transition duration-300 
                         cursor-pointer rounded-sm
                         `}>
-                            <img src= {CT} />
+                            <img src= {MG} />
                         </a>
 
                     </div>

@@ -5,16 +5,17 @@ import MG from './../assets/MG.png';
 import MGC from './../assets/MGC.png';
 import chuckApp from './../assets/chuckApp.png';
 import scm from './../assets/scm.png';
-import journal from './../assets/journalApp.png';
-import material from './../assets/material.png';
 import Redka from './../assets/Redka.png'
+import dashboard from './../assets/dashboard-1.png'
+import portfolio from './../assets/portfolio.png'
 import { FaReact} from "react-icons/fa";
 import { SiTailwindcss} from "react-icons/si";
-import { SiFirebase} from "react-icons/si";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaWordpress } from "react-icons/fa";
 import { FaElementor } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
+import { FaHtml5 } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
 
 
 export function Projects({open,handleClick}) {
@@ -35,6 +36,103 @@ return(
     
         <div className="grid justify-between grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 
         gap-x-10 gap-y-10 sm:gap-14 lg:gap-x-14 lg:gap-y-20 xl:gap-y-24">
+
+            <div className='flex flex-col items-center lg:items-start'>
+                <a href='#' target='_blank'>
+                    <img
+                        src={portfolio}
+                        alt="portfolio"
+                        loading="lazy"
+                        className=
+                        {`mb-2 rounded-lg w-[276px] cursor-pointer 
+                        transition duration-300
+                        border border-primary-gray 
+                        hover:border-sec-gray
+                        `}             
+                    />
+                </a>
+
+                <h3 className='font-semibold text-2xl mb-2'>Portfolio</h3>
+
+                <p className=
+                {`text-gray-800 text-sm text-center lg:text-left
+                mb-2 lg:pr-5 2xl:pr-20 mq
+                
+                `}>
+                        My Portfolio made with React JS and Tailwind CSS
+                        
+                </p>
+
+                <div className='flex gap-1 justify-center lg:justify-start items-center w-full'>
+
+                    <p className = "text-sky-400 text-xl flex items-center ">
+                        <FaReact />
+                    </p>
+
+                    <p className='font-mono text-xs mr-2'>React</p>
+
+                    <p className = "text-cyan-500 text-xl flex items-center "
+                    >   
+                        <SiTailwindcss />
+                    </p>
+
+                    <p className='font-mono text-xs mr-2'>Tailwind</p>          
+
+                </div>                
+
+            </div>
+
+            <div className='flex flex-col items-center lg:items-start'>
+                <a href='https://oswaldodm.github.io/dashboard-odm/' target='_blank'>
+                    <img
+                        src={dashboard}
+                        alt="Saas"
+                        loading="lazy"
+                        className=
+                        {`mb-2 rounded-lg w-[276px] cursor-pointer 
+                        transition duration-300
+                        border border-primary-gray 
+                        hover:border-sec-gray
+                        `}             
+                    />
+                </a>
+
+                <h3 className='font-semibold text-2xl mb-2'>AdminHub</h3>
+
+                <p className=
+                {`text-gray-800 text-sm text-center lg:text-left
+                mb-2 lg:pr-5 2xl:pr-20 mq
+                
+                `}>
+                        Admin Dashboard made with Vanilla code.
+                        
+                </p>
+
+                <div className='flex gap-1 justify-center lg:justify-start items-center w-full'>
+
+                    <p className = "text-orange-500 text-xl flex items-center ">
+                        <FaHtml5 />
+                    </p>
+
+                    <p className='font-mono text-xs mr-2'>HTML</p>
+
+                    <p className = "text-blue-500 text-xl flex items-center"
+                    >   
+                        <FaCss3Alt />
+                    </p>
+
+                    <p className='font-mono text-xs mr-2'>CSS</p>
+
+                    <p className = "text-yellow-400 text-xl flex items-center"
+                    >   
+                        <SiJavascript  />
+                    </p>
+
+                    <p className='font-mono text-xs mr-2'>Javascript</p>          
+
+                </div>                
+
+            </div>
 
             <div className='flex flex-col items-center lg:items-start'>
                 <a href='https://oswaldodm.github.io/Influencer/' target='_blank'>
@@ -81,6 +179,8 @@ return(
                 </div>                
 
             </div>
+
+            
 
             <div className='flex flex-col items-center lg:items-start'>
                 <a href='https://oswaldodm.github.io/space-x-2023/' target='_blank'>
