@@ -1,5 +1,4 @@
 import hero_img from './../assets/dev1.svg';
-import CT from './../assets/CryptoToday.png';
 import MG from './../assets/MG.png';
 import IN from './../assets/Influencer1.png';
 import Space from './../assets/Space.png';
@@ -20,7 +19,7 @@ return(
     lg:pr-5 xl:pr-0 
     `}>
 
-        <div className='lg:w-[52%] lg:pt-4 xl:pt-2 pad-css '>
+        <div className='lg:w-[52%] lg:pt-4 xl:pt-2 pad-css'>
 
                 <h1 className=
                 {`relative text-center text-primary-black font-black 

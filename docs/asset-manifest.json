@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.3b1efc9b.css",
+    "main.js": "./static/js/main.38f3c549.js",
+    "static/media/Redka.png": "./static/media/Redka.6eca1872ecc3c4b44cc6.png",
+    "static/media/MGC.png": "./static/media/MGC.838bc467ce2ef71580ae.png",
+    "static/media/Space.png": "./static/media/Space.814e0f44348e716137c8.png",
+    "static/media/scm.png": "./static/media/scm.d8b36b3751c8e3a66863.png",
+    "static/media/MG.png": "./static/media/MG.73f5a665507f7c15622f.png",
+    "static/media/Influencer1.png": "./static/media/Influencer1.df34bed5cb977553c07f.png",
+    "static/media/portfolio.png": "./static/media/portfolio.138002627fa3783f8cf9.png",
+    "static/media/chuckApp.png": "./static/media/chuckApp.cc20be37858ba432bd69.png",
+    "static/media/dashboard-1.png": "./static/media/dashboard-1.4f94b1a5c6b8554da2b0.png",
+    "static/media/CryptoToday.png": "./static/media/CryptoToday.a0c4be9cbc5c4e9da1c0.png",
+    "static/media/dev1.svg": "./static/media/dev1.125fa720be04054cd2d743227b1cb0cb.svg",
+    "static/media/Blanka.otf": "./static/media/Blanka.16f6265b20de0db4a921.otf",
+    "index.html": "./index.html",
+    "main.3b1efc9b.css.map": "./static/css/main.3b1efc9b.css.map",
+    "main.38f3c549.js.map": "./static/js/main.38f3c549.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b1efc9b.css",
+    "static/js/main.38f3c549.js"
+  ]
+}
