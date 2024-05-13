@@ -8,6 +8,8 @@ import scm from './../assets/scm.png';
 import Redka from './../assets/Redka.png'
 import dashboard from './../assets/dashboard-1.png'
 import portfolio from './../assets/portfolio.png'
+import todoTS from './../assets/todoTS.png'
+
 import { FaReact} from "react-icons/fa";
 import { SiTailwindcss} from "react-icons/si";
 import { FaCss3Alt } from "react-icons/fa";
@@ -16,6 +18,9 @@ import { FaElementor } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import { FaHtml5 } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+
+
 
 
 export function Projects({open,handleClick}) {
@@ -77,6 +82,52 @@ return(
                     </p>
 
                     <p className='font-mono text-xs mr-2'>Tailwind</p>          
+
+                </div>                
+
+            </div>
+
+            <div className='flex flex-col items-center lg:items-start'>
+                <a href='https://oswaldodm.github.io/todoTS/' target='_blank'>
+                    <img
+                        src={todoTS}
+                        alt="todoTS"
+                        loading="lazy"
+                        className=
+                        {`mb-2 rounded-lg w-[276px] cursor-pointer 
+                        transition duration-300
+                        border border-primary-gray 
+                        hover:border-sec-gray
+                        `}             
+                    />
+                </a>
+
+                <h3 className='font-semibold text-2xl mb-2'>TodoTS</h3>
+
+                <p className=
+                {`text-gray-800 text-sm text-center lg:text-left
+                mb-2 lg:pr-5 2xl:pr-20 mq
+                
+                `}>
+                        This is a small app I did while learning Typescript with React.
+                        You can check the code <a className='underline' href='https://github.com/OswaldoDM/todoTS/tree/main/src'>here</a>
+                        
+                </p>
+
+                <div className='flex gap-1 justify-center lg:justify-start items-center w-full'>
+
+                    <p className = "text-sky-400 text-xl flex items-center ">
+                        <FaReact />
+                    </p>
+
+                    <p className='font-mono text-xs mr-2'>React</p>
+
+                    <p className = "text-blue-500 text-lg flex items-center "
+                    >   
+                        <SiTypescript />
+                    </p>
+
+                    <p className='font-mono text-xs mr-2'>Typescript</p>          
 
                 </div>                
 
