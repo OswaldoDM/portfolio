@@ -35,7 +35,7 @@ return(
                 text-gray-800 text-center  mb-6
                 sm:text-[13px] md:text-sm
                 `}>
-                    FullStack Developer with more than four years of experience.
+                    Web Developer with more than four years of experience.
                     I've created this portfolio to show some personal projects that I'm really proud of.
                 </p>
 
