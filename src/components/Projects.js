@@ -9,6 +9,7 @@ import Redka from './../assets/Redka.png'
 import dashboard from './../assets/dashboard-1.png'
 import portfolio from './../assets/portfolio.png'
 import todoTS from './../assets/todoTS.png'
+import charts from './../assets/charts.png'
 
 import { FaReact} from "react-icons/fa";
 import { SiTailwindcss} from "react-icons/si";
@@ -19,8 +20,6 @@ import { CgWebsite } from "react-icons/cg";
 import { FaHtml5 } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
-
-
 
 
 export function Projects({open,handleClick}) {
@@ -40,7 +39,7 @@ return(
         </h2>
     
         <div className="grid justify-between grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 
-        gap-x-10 gap-y-10 sm:gap-14 lg:gap-x-14 lg:gap-y-20 xl:gap-y-24">
+        gap-x-10 gap-y-10 sm:gap-14 lg:gap-x-14 lg:gap-y-20 2xl:gap-x-10 ">
 
             <div className='flex flex-col items-center lg:items-start'>
                 <a href='#' target='_blank'>
@@ -88,6 +87,52 @@ return(
             </div>
 
             <div className='flex flex-col items-center lg:items-start'>
+                <a href='https://oswaldodm.github.io/charts-dashboard/' target='_blank'>
+                    <img
+                        src={charts}
+                        alt="portfolio"
+                        loading="lazy"
+                        className=
+                        {`mb-2 rounded-lg w-[276px] cursor-pointer 
+                        transition duration-300
+                        border border-primary-gray 
+                        hover:border-sec-gray
+                        `}             
+                    />
+                </a>
+
+                <h3 className='font-semibold text-2xl mb-2'>Charts Dashboard</h3>
+
+                <p className=
+                {`text-gray-800 text-sm text-center lg:text-left
+                mb-2 lg:pr-5 2xl:pr-20 mq
+                
+                `}>
+                        Dashboard made using React with Tailwind and the Tremor library.
+                        You can check the code <a className='underline' href='https://github.com/OswaldoDM/charts-dashboard' target='_blank'>here</a>
+                        
+                </p>
+
+                <div className='flex gap-1 justify-center lg:justify-start items-center w-full'>
+
+                    <p className = "text-sky-400 text-xl flex items-center ">
+                        <FaReact />
+                    </p>
+
+                    <p className='font-mono text-xs mr-2'>React</p>
+
+                    <p className = "text-cyan-500 text-xl flex items-center "
+                    >   
+                        <SiTailwindcss />
+                    </p>
+
+                    <p className='font-mono text-xs mr-2'>Tailwind</p>          
+
+                </div>                
+
+            </div>
+
+            <div className='flex flex-col items-center lg:items-start'>
                 <a href='https://oswaldodm.github.io/todoTS/' target='_blank'>
                     <img
                         src={todoTS}
@@ -110,7 +155,7 @@ return(
                 
                 `}>
                         This is a small app I did while learning Typescript with React.
-                        You can check the code <a className='underline' href='https://github.com/OswaldoDM/todoTS/tree/main/src'>here</a>
+                        You can check the code <a className='underline' href='https://github.com/OswaldoDM/todoTS/tree/main/src'target='_blank'>here</a>
                         
                 </p>
 
@@ -447,7 +492,7 @@ return(
                         <CgWebsite />
                     </p>
 
-                    <p className='font-mono text-xs mr-2'>Divi</p>                 
+                    <p className='font-mono text-xs mr-2 mt-[2px]'>Divi</p>                 
 
                 </div>
 
@@ -491,56 +536,12 @@ return(
                         <CgWebsite />
                     </p>
 
-                    <p className='font-mono text-xs mr-2'>Bricks</p>                 
+                    <p className='font-mono text-xs mr-2 mt-[2px]'>Bricks</p>                 
 
                 </div>
                
 
-            </div> 
-
-            <div className='flex flex-col items-center lg:items-start'>
-                <a href='https://oswaldodm.github.io/chuck-jokes-app/' target='_blank'>
-                <img
-                    src={chuckApp}
-                    alt="Saas"
-                    loading="lazy"
-                    className=
-                    {`mb-2 rounded-lg w-[276px] cursor-pointer 
-                    transition duration-300
-                    border border-primary-gray 
-                    hover:border-sec-gray
-                    `}             
-                />
-                </a>
-
-                <h3 className='font-semibold text-2xl mb-2'>Chuck Jokes</h3>
-                <p className=
-                {`text-gray-800 text-sm text-center lg:text-left
-                mb-2 lg:pr-5 2xl:pr-20 mq
-                
-                `}>
-                    Web app with some of the best jokes ever written😆
-                    thanks to the Chuck Norris jokes API.
-                </p>
-
-                <div className='flex gap-1 justify-center lg:justify-start items-center w-full'>
-
-                    <p className = "text-sky-400 text-xl flex items-center ">
-                        <FaReact />
-                    </p>
-
-                    <p className='font-mono text-xs mr-2'>React</p>                    
-
-                    <p className = "text-blue-700 text-xl flex items-center "
-                    >   
-                        <FaCss3Alt />
-                    </p>
-
-                    <p className='font-mono text-xs mr-2'>CSS</p>            
-
-                </div>
-
-            </div>        
+            </div>          
              
 
         </div>

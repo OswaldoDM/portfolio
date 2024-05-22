@@ -1,5 +1,5 @@
 import hero_img from './../assets/dev1.svg';
-import MG from './../assets/MG.png';
+import charts from './../assets/charts.png';
 import IN from './../assets/Influencer1.png';
 import Space from './../assets/Space.png';
 import { SiLinkedin } from 'react-icons/si';
@@ -97,7 +97,7 @@ return(
                         `}>
                             <img src= {Space} />
                         </a>
-                        <a href='https://oswaldodm.github.io/react-mightyGifs/' target='_blank' 
+                        <a href='https://oswaldodm.github.io/charts-dashboard/' target='_blank' 
                         className= 
                         {`flex-1 lg:border-[5px] xl:border-[6px]
                         2xl:border-8 border-gray-300
@@ -105,7 +105,7 @@ return(
                         transition duration-300 
                         cursor-pointer rounded-sm
                         `}>
-                            <img src= {MG} />
+                            <img src= {charts} />
                         </a>
 
                     </div>
