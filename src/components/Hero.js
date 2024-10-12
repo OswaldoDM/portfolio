@@ -1,7 +1,7 @@
 import hero_img from './../assets/dev1.svg';
-import charts from './../assets/charts.png';
 import IN from './../assets/Influencer1.png';
 import Space from './../assets/Space.png';
+import gifs from './../assets/MG.png';
 import { SiLinkedin } from 'react-icons/si';
 
 
@@ -35,7 +35,7 @@ return(
                 text-gray-800 text-center  mb-6
                 sm:text-[13px] md:text-sm
                 `}>
-                    Web Developer with more than four years of experience.
+                    Front-End Developer with five years of experience.
                     I've created this portfolio to show some personal projects that I'm really proud of.
                 </p>
 
@@ -49,7 +49,7 @@ return(
                 
 
                 <a href='https://www.linkedin.com/in/oswaldo-diaz-milan%C3%A9s-b73b512b6/' target='_blank'
-                className='flex justify-center'>
+rel="noreferrer"                className='flex justify-center'>
                                                      
                     <SiLinkedin className= 
                     {` w-8 h-8 xl:w-10 xl:h-10 
@@ -77,7 +77,7 @@ return(
                     <h3 className='font-extrabold mb-2'>Latest Work</h3>
                     <div className='flex gap-3'>
 
-                        <a href='https://oswaldodm.github.io/Influencer/' target='_blank' 
+                        <a href='https://oswaldodm.github.io/Influencer/' target='_blank' rel="noreferrer"
                         className= 
                         {`flex-1 lg:border-[5px] xl:border-[6px]
                         2xl:border-8 border-gray-300 
@@ -85,9 +85,9 @@ return(
                         transition duration-300
                         cursor-pointer rounded-sm
                         `}>
-                            <img src= {IN} />
+                            <img alt='' src= {IN} />
                         </a>
-                        <a href='https://oswaldodm.github.io/space-x-2023/' target='_blank' 
+                        <a href='https://oswaldodm.github.io/space-x-2023/' target='_blank' rel="noreferrer"
                         className= 
                         {`flex-1 lg:border-[5px] xl:border-[6px]
                         2xl:border-8 border-gray-300
@@ -95,9 +95,9 @@ return(
                         transition duration-300 
                         cursor-pointer rounded-sm
                         `}>
-                            <img src= {Space} />
+                            <img alt='' src= {Space} />
                         </a>
-                        <a href='https://oswaldodm.github.io/charts-dashboard/' target='_blank' 
+                        <a href='https://gifs-phi-smoky.vercel.app/' target='_blank' rel="noreferrer"
                         className= 
                         {`flex-1 lg:border-[5px] xl:border-[6px]
                         2xl:border-8 border-gray-300
@@ -105,7 +105,7 @@ return(
                         transition duration-300 
                         cursor-pointer rounded-sm
                         `}>
-                            <img src= {charts} />
+                            <img alt='' src= {gifs} />
                         </a>
 
                     </div>

@@ -1,69 +1,41 @@
 import { MdOutlineEmail} from "react-icons/md";
 import { SiLinkedin } from 'react-icons/si';
 
-export function Footer({open,handleClick}){
+export function Footer({open}){
 
-return(
-
-<>
-<section id="contact" className={`bg-white ${open && 'blur'}`}>
-
-    <div className="container mx-auto">
-
-        <div className= 
-        {`flex flex-col lg:flex-row justify-between items-center 
-        text-center lg:text-start mb-16
-        lg:pl-20 lg:pr-32
-        xl:pb-5 xl:pl-40 xl:pr-48 xl:pt-5 
-        2xl:pl-56 2xl:pr-96
-        `}>
-
-            <h1 className="text-2xl font-extrabold mb-5 lg:mb-0 pad-download">
-                Download my CV and get to know more about me!
-            </h1>
-
-             <a 
+    return(
+    <>
+    <section id='contact' className={`bg-white ${open && 'blur'}`}>
+        <div className='container mx-auto'>            
+            <div className={`flex flex-col lg:flex-row justify-between items-center 
+            text-center mb-16 lg:text-start lg:pl-20 lg:pr-32 xl:pb-5 xl:pl-40 xl:pr-48 
+            xl:pt-5 2xl:pl-56 2xl:pr-96`}>
+                <h1 className="text-2xl font-extrabold mb-5 lg:mb-0 xl:text-[28px] pad-download">
+                    Download my CV and get to know more about me!
+                </h1>
+                <a 
                 href="https://drive.google.com/drive/folders/1wsHKlG7dwQ7rJXfTNE5zn3g9UclgSBz3?usp=sharing" 
                 target= "_blank"
-                className= 
-                {`py-3 px-5 flex-shrink-0 
-                flex items-center text-gray-100  
-                bg-secondary-black rounded
-                hover:bg-black hover:text-white 
-                transition duration-300
-                `}>
-                
-                    <span className= 
-                    {`mr-2 text-sm font-Poppins 
-                    font-medium
-                    `}>Download CV
+                className={`py-3 px-5 flex-shrink-0 flex items-center text-gray-100  
+                bg-secondary-black rounded hover:bg-black hover:text-white transition duration-300`}>                
+                    <span className= 'mr-2 text-sm font-Poppins font-medium'>
+                        Download CV
                     </span>
-
                     <svg 
-                    className= 
-                    {`h-5 w-5 sm:h-6 sm:w-6 
-                    text-gray-100 hover:text-white
-                    `} 
+                    className={`h-5 w-5 sm:h-6 sm:w-6 text-gray-100 hover:text-white`}                    
                     fill="none" 
                     viewBox="0 0 24 24" 
                     stroke="currentColor">
                     <path  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                     </svg>
-
-            </a>
-
-        </div>
-
-        <div className="flex justify-between items-center px-5 pb-1 xl:pb-0 md:px-12">
-
-            <a className="flex-shrink-0 flex items-center" href="mailto:oswaldoe1992@gmail.com">
-                <MdOutlineEmail className=""/>
-                <span className="font-normal text-sm ml-1">Oswaldoe1992@gmail.com</span>
-            </a>            
-
-            
-            <div className="flex lg:items-center gap-1">
-                    
+                </a>
+            </div>
+            <div className="flex justify-between items-center px-5 pb-1 xl:pb-0 md:px-12">
+                <a className="flex-shrink-0 flex items-center" href="mailto:oswaldoe1992@gmail.com">
+                    <MdOutlineEmail className=""/>
+                    <span className="font-normal text-sm ml-1">Oswaldoe1992@gmail.com</span>
+                </a>               
+                <div className="flex lg:items-center gap-1">                        
                     <a aria-label="github" rel="noopener noreferrer" target="_blank" 
                     href="https://github.com/OswaldoDM" 
                     className={`relative h-9 w-9 
@@ -79,33 +51,23 @@ return(
                         </svg>
                         
                     </a>
-
                     <a aria-label="Linkedin" rel="noopener noreferrer" target="_blank" 
                     href="https://www.linkedin.com/in/oswaldo-diaz-milan%C3%A9s-b73b512b6/" 
-                    className={`relative h-9 w-9 
-                    flex items-center justify-center 
-                    before:absolute before:inset-0 before:rounded-full 
-                    before:border before:border-gray-200                    
-                    `}>
-
-                    <SiLinkedin className=                     
-                        {` relative w-5 h-5                      
-                        text-primary-black
-                        hover:fill-black 
-                        transition duration-300 
-                        cursor-pointer rounded-sm
-                        `}/>
-                        
+                    className={`relative h-9 w-9 flex items-center justify-center 
+                    before:absolute before:inset-0 before:rounded-full before:border 
+                    before:border-gray-200`}> 
+                        <SiLinkedin 
+                    className={` relative w-5 h-5 text-primary-black hover:fill-black
+                    transition duration-300 cursor-pointer rounded-sm `}/>  
                     </a>                    
-                    
-            </div>            
-
-        </div>
-
-    </div>
-    
-</section>        
-</>
-
-)
+                </div>
+            </div>
+        </div>    
+    </section>        
+    </>
+    )
 }
+                       
+                        
+                        
+                        
