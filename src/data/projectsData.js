@@ -14,6 +14,7 @@ export const projects = [
     {
         label: 'Mighty Gifs',
         href: 'https://gifs-phi-smoky.vercel.app/',
+        repo: 'https://github.com/OswaldoDM/gifs',
         img: gifs,
         alt: 'gifs nextjs',
         description: 'SPA made with Nextjs and its server side rendering using the gyphy developers API',
@@ -33,6 +34,7 @@ export const projects = [
     {
         label: 'Nrby Users',
         href: 'https://oswaldodm.github.io/nrby-users/',
+        repo: 'https://github.com/OswaldoDM/nrby-users',
         img: nrby,
         alt: 'nrby',
         description: 'This was the technical assessment I did for Nrby. It includes the react select library',
@@ -48,6 +50,22 @@ export const projects = [
         icon3Label: 'Tailwind',
         icon3Color: 'text-cyan-500',
         icon3Size: 'text-xl'
+    },
+    {
+        label: 'TodoTS',
+        href: 'https://oswaldodm.github.io/todoTS',
+        repo: 'https://github.com/OswaldoDM/todoTS',
+        img: todo,
+        alt: 'todo app',
+        description: 'This is a small app I did while learning Typescript with React.',
+        icon1: <FaReact/>,
+        icon1Label: 'React',
+        icon1Color: 'text-sky-400',
+        icon1Size: 'text-xl',
+        icon2: <SiTypescript />,
+        icon2Label: 'Typescript',
+        icon2Color: 'text-blue-500',
+        icon2Size: 'text-[15px]'
     },    
     {
         label: 'Influencer',
@@ -93,22 +111,7 @@ export const projects = [
         icon2Label: 'Tailwind',
         icon2Color: 'text-cyan-500',
         icon2Size: 'text-xl'
-    },
-    {
-        label: 'TodoTS',
-        href: 'https://oswaldodm.github.io/todoTS',
-        img: todo,
-        alt: 'todo app',
-        description: 'This is a small app I did while learning Typescript with React.',
-        icon1: <FaReact/>,
-        icon1Label: 'React',
-        icon1Color: 'text-sky-400',
-        icon1Size: 'text-xl',
-        icon2: <SiTypescript />,
-        icon2Label: 'Typescript',
-        icon2Color: 'text-blue-500',
-        icon2Size: 'text-[15px]'
-    },    
+    },        
     {
         label: 'Charts Dashboard',
         href: 'https://oswaldodm.github.io/charts-dashboard/',
