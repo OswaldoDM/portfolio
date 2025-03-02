@@ -5,7 +5,7 @@ import gifs from './../assets/MG.png';
 import { SiLinkedin } from 'react-icons/si';
 
 
-export function Hero({open,handleClick}) {
+export function Hero({open}) {
 
 return(
 
@@ -35,7 +35,7 @@ return(
                 text-gray-800 text-center  mb-6
                 sm:text-[13px] md:text-sm
                 `}>
-                    Front-End Developer with five years of experience.
+                    Fullstack Developer with five years of experience.
                     I've created this portfolio to show some personal projects that I'm really proud of.
                 </p>
 
@@ -44,7 +44,7 @@ return(
                 text-gray-800 text-center  mb-6
                 text-base 
                 `}>
-                    Front-End Developer
+                    Fullstack Developer
                 </p>
                 
 

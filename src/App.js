@@ -13,9 +13,9 @@ function App() {
   return (
   <>
     <NavBar open = {open} handleClick = {handleClick} /> 
-    <Hero open = {open} handleClick = {handleClick} />
-    <Projects open = {open} handleClick = {handleClick} />
-    <Footer open = {open} handleClick = {handleClick} />
+    <Hero open = {open} />
+    <Projects open = {open} />
+    <Footer open = {open} />    
   </>
     );
   }
