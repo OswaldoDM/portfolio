@@ -35,7 +35,7 @@ return(
                 text-gray-800 text-center  mb-6
                 sm:text-[13px] md:text-sm
                 `}>
-                    Frontend Developer with five years of experience.
+                    Frontend Developer with over five years of experience.
                     I've created this portfolio to show some personal projects that I'm really proud of.
                 </p>
 
