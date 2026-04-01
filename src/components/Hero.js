@@ -77,7 +77,7 @@ rel="noreferrer"                className='flex justify-center'>
                     <h3 className='font-extrabold mb-2'>Latest Work</h3>
                     <div className='flex gap-3'>
 
-                        <a href='https://github.com/OswaldoDM/infinity' target='_blank' rel="noreferrer"
+                        <a href='https://infinity-theta-gules.vercel.app/' target='_blank' rel="noreferrer"
                         className= 
                         {`flex-1 lg:border-[5px] xl:border-[6px]
                         2xl:border-8 border-gray-300 
