@@ -1,5 +1,5 @@
 import hero_img from './../assets/dev1.svg';
-import IN from './../assets/Influencer1.png';
+import infinity from './../assets/infinity.png';
 import Space from './../assets/Space.png';
 import gifs from './../assets/MG.png';
 import { SiLinkedin } from 'react-icons/si';
@@ -35,7 +35,7 @@ return(
                 text-gray-800 text-center  mb-6
                 sm:text-[13px] md:text-sm
                 `}>
-                    Frontend Developer with over five years of experience.
+                    Fullstack Developer with over five years of experience.
                     I've created this portfolio to show some personal projects that I'm really proud of.
                 </p>
 
@@ -44,7 +44,7 @@ return(
                 text-gray-800 text-center  mb-6
                 text-base 
                 `}>
-                    Frontend Developer
+                    Fullstack Developer
                 </p>
                 
 
@@ -72,12 +72,12 @@ rel="noreferrer"                className='flex justify-center'>
 
                 </a>
 
-                <div className='hidden lg:block px-8 xl:px-12 2xl:px-20 lg:mt-14 xl:mt-16 2xl:mt-20'>
+                <div className='hidden lg:block px-8 xl:px-12 2xl:px-20 lg:mt-14 xl:mt-10 2xl:mt-16'>
                     
                     <h3 className='font-extrabold mb-2'>Latest Work</h3>
                     <div className='flex gap-3'>
 
-                        <a href='https://oswaldodm.github.io/Influencer/' target='_blank' rel="noreferrer"
+                        <a href='https://github.com/OswaldoDM/infinity' target='_blank' rel="noreferrer"
                         className= 
                         {`flex-1 lg:border-[5px] xl:border-[6px]
                         2xl:border-8 border-gray-300 
@@ -85,7 +85,7 @@ rel="noreferrer"                className='flex justify-center'>
                         transition duration-300
                         cursor-pointer rounded-sm
                         `}>
-                            <img alt='' src= {IN} />
+                            <img alt='' src= {infinity} />
                         </a>
                         <a href='https://oswaldodm.github.io/space-x-2023/' target='_blank' rel="noreferrer"
                         className= 

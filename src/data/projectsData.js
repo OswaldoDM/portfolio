@@ -6,11 +6,49 @@ import crypto from './../assets/CryptoToday.png';
 import todo from './../assets/todoTS.png';
 import gifs from './../assets/MG.png';
 import nrby from './../assets/nrby.png';
+import infinity from './../assets/infinity.png';
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiTypescript, SiNextdotjs } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
 
 export const projects = [
+    {
+        label: 'Infinity',
+        href: 'https://infinity-theta-gules.vercel.app/',
+        repo: 'https://github.com/OswaldoDM/infinity',
+        img: infinity,
+        alt: 'infinity e-commerce',
+        description: 'Full-stack e-commerce with a robust auth system and a complete shopping flow',
+        icon1: <SiNextdotjs />,
+        icon1Label: 'Next',
+        icon1Color: 'text-black',
+        icon1Size: 'text-[17px]',
+        icon2: <SiTypescript />,
+        icon2Label: 'Typescript',
+        icon2Color: 'text-blue-500',
+        icon2Size: 'text-[15px]',
+        icon3: <SiTailwindcss/>,
+        icon3Label: 'Tailwind',
+        icon3Color: 'text-cyan-500',
+        icon3Size: 'text-xl',        
+        icon4: (
+            <img src="https://authjs.dev/img/etc/logo-sm.webp" alt="Auth.js" className='w-4 h-4' />
+        ),
+        icon4Label: 'Auth',
+        icon4Color: '',
+        icon4Size: '',
+        icon5: <SiPostgresql />,
+        icon5Label: 'PostgreSQL',
+        icon5Color: '',
+        icon5Size: 'text-lg',
+        icon6: (
+            <img src="https://supabase.com/dashboard/img/supabase-logo.svg" alt="Auth.js" className='w-4 h-4' />
+        ),
+        icon6Label: 'Supabase',
+        icon6Color: '',
+        icon5Size: ''
+    },
     {
         label: 'Mighty Gifs',
         href: 'https://gifs-phi-smoky.vercel.app/',
@@ -96,22 +134,7 @@ export const projects = [
         icon2Label: 'Tailwind',
         icon2Color: 'text-cyan-500',
         icon2Size: 'text-xl'
-    },
-    {
-        label: 'Crypto Today',
-        href: 'https://oswaldodm.github.io/react-cryptoToday/',
-        img: crypto,
-        alt: 'cryptocurrencies',
-        description: 'This App provides you with all the info you need about the cryptocurrency markets',
-        icon1: <FaReact/>,
-        icon1Label: 'React',
-        icon1Color: 'text-sky-400',
-        icon1Size: 'text-xl',
-        icon2: <SiTailwindcss/>,
-        icon2Label: 'Tailwind',
-        icon2Color: 'text-cyan-500',
-        icon2Size: 'text-xl'
-    },        
+    },           
     {
         label: 'Charts Dashboard',
         href: 'https://oswaldodm.github.io/charts-dashboard/',
@@ -129,7 +152,7 @@ export const projects = [
     },    
     {
         label: 'Portfolio',
-        href: '#',
+        href: '',
         img: portfolio,
         alt: 'portfolio',
         description: 'My Portfolio made with React JS and Tailwind CSS using create react app',

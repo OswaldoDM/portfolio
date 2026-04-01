@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "./static/css/main.71eafab6.css",
-    "main.js": "./static/js/main.f2cdcbf9.js",
+    "main.css": "./static/css/main.6bf89ed6.css",
+    "main.js": "./static/js/main.1191a3d2.js",
     "static/media/Space.png": "./static/media/Space.814e0f44348e716137c8.png",
     "static/media/MG.png": "./static/media/MG.6da4acd5d19aaa3a0658.png",
     "static/media/nrby.png": "./static/media/nrby.14867c7892a8d99403b5.png",
     "static/media/Influencer1.png": "./static/media/Influencer1.df34bed5cb977553c07f.png",
+    "static/media/infinity.png": "./static/media/infinity.edf80e7fead68b5cbed2.png",
     "static/media/portfolio.png": "./static/media/portfolio.138002627fa3783f8cf9.png",
     "static/media/charts.png": "./static/media/charts.eab86122b1318d02e10f.png",
     "static/media/CryptoToday.png": "./static/media/CryptoToday.a0c4be9cbc5c4e9da1c0.png",
@@ -13,11 +14,11 @@
     "static/media/todoTS.png": "./static/media/todoTS.c5d3f15e93c8fcc8951a.png",
     "static/media/Blanka.otf": "./static/media/Blanka.16f6265b20de0db4a921.otf",
     "index.html": "./index.html",
-    "main.71eafab6.css.map": "./static/css/main.71eafab6.css.map",
-    "main.f2cdcbf9.js.map": "./static/js/main.f2cdcbf9.js.map"
+    "main.6bf89ed6.css.map": "./static/css/main.6bf89ed6.css.map",
+    "main.1191a3d2.js.map": "./static/js/main.1191a3d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.71eafab6.css",
-    "static/js/main.f2cdcbf9.js"
+    "static/css/main.6bf89ed6.css",
+    "static/js/main.1191a3d2.js"
   ]
 }
