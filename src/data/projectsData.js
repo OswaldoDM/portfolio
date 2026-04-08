@@ -2,8 +2,7 @@ import portfolio from './../assets/portfolio.png';
 import charts from './../assets/charts.png';
 import influencer from './../assets/Influencer1.png';
 import space from './../assets/Space.png';
-import crypto from './../assets/CryptoToday.png';
-import todo from './../assets/todoTS.png';
+import travel from './../assets/travel.png';
 import gifs from './../assets/MG.png';
 import nrby from './../assets/nrby.png';
 import infinity from './../assets/infinity.png';
@@ -50,6 +49,41 @@ export const projects = [
         icon5Size: ''
     },
     {
+        label: 'Travel',
+        href: 'https://oswaldodm.github.io/travel/',
+        repo: 'https://github.com/OswaldoDM/travel',
+        img: travel,
+        alt: 'Travel',
+        description: 'Travel is a modern, responsive web designed to streamline the travel planning experience',
+        icon1: <FaReact/>,
+        icon1Label: 'React',
+        icon1Color: 'text-sky-400',
+        icon1Size: 'text-xl',
+        icon2: <SiTypescript />,
+        icon2Label: 'Typescript',
+        icon2Color: 'text-blue-500',
+        icon2Size: 'text-[15px]',
+        icon3: <SiTailwindcss/>,
+        icon3Label: 'Tailwind',
+        icon3Color: 'text-cyan-500',
+        icon3Size: 'text-xl'
+    },
+    {
+        label: 'Influencer',
+        href: 'https://oswaldodm.github.io/Influencer/',
+        img: influencer,
+        alt: 'Saas Landing',
+        description: 'SaaS Landing Page created with Figma and then translated into code',
+        icon1: <FaReact/>,
+        icon1Label: 'React',
+        icon1Color: 'text-sky-400',
+        icon1Size: 'text-xl',
+        icon2: <SiTailwindcss/>,
+        icon2Label: 'Tailwind',
+        icon2Color: 'text-cyan-500',
+        icon2Size: 'text-xl'
+    },
+    {
         label: 'Mighty Gifs',
         href: 'https://gifs-phi-smoky.vercel.app/',
         repo: 'https://github.com/OswaldoDM/gifs',
@@ -88,38 +122,7 @@ export const projects = [
         icon3Label: 'Tailwind',
         icon3Color: 'text-cyan-500',
         icon3Size: 'text-xl'
-    },
-    {
-        label: 'TodoTS',
-        href: 'https://oswaldodm.github.io/todoTS',
-        repo: 'https://github.com/OswaldoDM/todoTS',
-        img: todo,
-        alt: 'todo app',
-        description: 'This is a small app I did while learning Typescript with React.',
-        icon1: <FaReact/>,
-        icon1Label: 'React',
-        icon1Color: 'text-sky-400',
-        icon1Size: 'text-xl',
-        icon2: <SiTypescript />,
-        icon2Label: 'Typescript',
-        icon2Color: 'text-blue-500',
-        icon2Size: 'text-[15px]'
     },    
-    {
-        label: 'Influencer',
-        href: 'https://oswaldodm.github.io/Influencer/',
-        img: influencer,
-        alt: 'Saas Landing',
-        description: 'SaaS Landing Page created with Figma and then translated into code',
-        icon1: <FaReact/>,
-        icon1Label: 'React',
-        icon1Color: 'text-sky-400',
-        icon1Size: 'text-xl',
-        icon2: <SiTailwindcss/>,
-        icon2Label: 'Tailwind',
-        icon2Color: 'text-cyan-500',
-        icon2Size: 'text-xl'
-    },
     {
         label: 'SpaceX App',
         href: 'https://oswaldodm.github.io/space-x-2023/',
