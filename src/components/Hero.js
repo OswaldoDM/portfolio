@@ -31,11 +31,11 @@ return(
                 </h1>
                 
                 <p className=
-                {`hidden sm:block px-20 md:px-40 lg:px-[22px] xl:px-20 2xl:pl-20
-                text-gray-800 text-center  mb-6
+                {`hidden sm:block px-20 md:px-40 lg:px-[22px] xl:px-20 2xl:px-32
+                text-gray-800 text-center mb-6
                 sm:text-[13px] md:text-sm
                 `}>
-                    Fullstack Developer with over five years of experience.
+                    Fullstack Developer with over 6 years of experience.
                     I've created this portfolio to show some personal projects that I'm really proud of.
                 </p>
 
