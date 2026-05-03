@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "./static/css/main.d87ef949.css",
-    "main.js": "./static/js/main.418d5a99.js",
+    "main.js": "./static/js/main.4f617433.js",
     "static/media/Space.png": "./static/media/Space.814e0f44348e716137c8.png",
     "static/media/travel.png": "./static/media/travel.deb0b40b187338593043.png",
     "static/media/MG.png": "./static/media/MG.6da4acd5d19aaa3a0658.png",
     "static/media/nrby.png": "./static/media/nrby.14867c7892a8d99403b5.png",
     "static/media/Influencer1.png": "./static/media/Influencer1.df34bed5cb977553c07f.png",
-    "static/media/infinity.png": "./static/media/infinity.edf80e7fead68b5cbed2.png",
+    "static/media/infinity.png": "./static/media/infinity.94b69bd66fbe41260622.png",
     "static/media/portfolio.png": "./static/media/portfolio.138002627fa3783f8cf9.png",
     "static/media/charts.png": "./static/media/charts.eab86122b1318d02e10f.png",
     "static/media/dev1.svg": "./static/media/dev1.125fa720be04054cd2d743227b1cb0cb.svg",
     "static/media/Blanka.otf": "./static/media/Blanka.16f6265b20de0db4a921.otf",
     "index.html": "./index.html",
     "main.d87ef949.css.map": "./static/css/main.d87ef949.css.map",
-    "main.418d5a99.js.map": "./static/js/main.418d5a99.js.map"
+    "main.4f617433.js.map": "./static/js/main.4f617433.js.map"
   },
   "entrypoints": [
     "static/css/main.d87ef949.css",
-    "static/js/main.418d5a99.js"
+    "static/js/main.4f617433.js"
   ]
 }
