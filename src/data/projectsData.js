@@ -18,7 +18,7 @@ export const projects = [
         repo: 'https://github.com/OswaldoDM/infinity',
         img: infinity,
         alt: 'infinity e-commerce',
-        description: 'Full-stack e-commerce with a robust auth system and a complete shopping flow',
+        description: 'Full-stack e-commerce with an admin dashboard and a complete shopping flow',
         icon1: <SiNextdotjs />,
         icon1Label: 'Next',
         icon1Color: 'text-black',
