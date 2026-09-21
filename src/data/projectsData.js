@@ -6,6 +6,11 @@ import travel from './../assets/travel.png';
 import gifs from './../assets/MG.png';
 import nrby from './../assets/nrby.png';
 import infinity from './../assets/infinity.png';
+import node from './../assets/Node.png';
+import better from './../assets/better.png';
+import nodeLogo from './../assets/node.svg';
+import expressLogo from './../assets/express.svg';
+import neon from './../assets/neon.svg';
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { SiTypescript, SiNextdotjs } from "react-icons/si";
@@ -42,11 +47,49 @@ export const projects = [
         icon5Color: '',
         icon5Size: 'text-lg',
         icon6: (
-            <img src="https://supabase.com/dashboard/img/supabase-logo.svg" alt="Auth.js" className='w-4 h-4' />
+            <img src="https://supabase.com/dashboard/img/supabase-logo.svg" alt="Supabase" className='w-4 h-4' />
         ),
         icon6Label: 'Supabase',
-        icon6Color: '',
-        icon5Size: ''
+        icon6Color: '',        
+    },
+    {
+        label: 'Auth API',
+        href: 'https://auth-react-node-api.onrender.com/health',
+        repo: 'https://github.com/OswaldoDM/auth_react_node_api',
+        img: node,
+        alt: 'React Node Auth API',
+        description: 'Modular REST API with an authentication system built for modern applications',
+        icon1: (
+            <img src={nodeLogo} alt="Node" className='w-4 h-4' />
+        ),
+        icon1Label: 'Node',
+        icon1Color: 'text-sky-400',
+        icon1Size: 'text-xl',
+        icon2: (
+            <img src={expressLogo} alt="Express" className='w-4 h-4' />
+        ),        
+        icon2Label: 'Express',
+        icon2Color: '',
+        icon2Size: '',
+        icon3: <SiTypescript />,
+        icon3Label: 'Typescript',
+        icon3Color: 'text-blue-500',
+        icon3Size: 'text-[15px]',
+        icon4: (
+            <img src={better} alt="Better-auth" className='w-4 h-4' />
+        ),        
+        icon4Label: 'BetterAuth',
+        icon4Color: '',
+        icon4Size: '',        
+        icon5: <SiPostgresql />,
+        icon5Label: 'PostgreSQL',
+        icon5Color: '',
+        icon5Size: 'text-lg',
+        icon6: (
+            <img src={neon} alt="Neon" className='w-4 h-4' />
+        ),
+        icon6Label: 'Neon',
+        icon6Color: '',        
     },
     {
         label: 'Travel',
@@ -55,6 +98,46 @@ export const projects = [
         img: travel,
         alt: 'Travel',
         description: 'Travel is a modern, responsive web designed to streamline the travel planning experience',
+        icon1: <FaReact/>,
+        icon1Label: 'React',
+        icon1Color: 'text-sky-400',
+        icon1Size: 'text-xl',
+        icon2: <SiTypescript />,
+        icon2Label: 'Typescript',
+        icon2Color: 'text-blue-500',
+        icon2Size: 'text-[15px]',
+        icon3: <SiTailwindcss/>,
+        icon3Label: 'Tailwind',
+        icon3Color: 'text-cyan-500',
+        icon3Size: 'text-xl'
+    },    
+    {
+        label: 'Mighty Gifs',
+        href: 'https://gifs-phi-smoky.vercel.app/',
+        repo: 'https://github.com/OswaldoDM/gifs',
+        img: gifs,
+        alt: 'gifs nextjs',
+        description: 'SPA made with Nextjs and its server side rendering using the gyphy developers API',
+        icon1: <SiNextdotjs />,
+        icon1Label: 'Next',
+        icon1Color: 'text-black',
+        icon1Size: 'text-[17px]',
+        icon2: <SiTypescript />,
+        icon2Label: 'Typescript',
+        icon2Color: 'text-blue-500',
+        icon2Size: 'text-[15px]',
+        icon3: <SiTailwindcss/>,
+        icon3Label: 'Tailwind',
+        icon3Color: 'text-cyan-500',
+        icon3Size: 'text-xl'
+    },        
+    {
+        label: 'Nrby Users',
+        href: 'https://oswaldodm.github.io/nrby-users/',
+        repo: 'https://github.com/OswaldoDM/nrby-users',
+        img: nrby,
+        alt: 'nrby',
+        description: 'This was the technical assessment I did for Nrby. It includes the react select library',
         icon1: <FaReact/>,
         icon1Label: 'React',
         icon1Color: 'text-sky-400',
@@ -82,46 +165,6 @@ export const projects = [
         icon2Label: 'Tailwind',
         icon2Color: 'text-cyan-500',
         icon2Size: 'text-xl'
-    },
-    {
-        label: 'Mighty Gifs',
-        href: 'https://gifs-phi-smoky.vercel.app/',
-        repo: 'https://github.com/OswaldoDM/gifs',
-        img: gifs,
-        alt: 'gifs nextjs',
-        description: 'SPA made with Nextjs and its server side rendering using the gyphy developers API',
-        icon1: <SiNextdotjs />,
-        icon1Label: 'Next',
-        icon1Color: 'text-black',
-        icon1Size: 'text-[17px]',
-        icon2: <SiTypescript />,
-        icon2Label: 'Typescript',
-        icon2Color: 'text-blue-500',
-        icon2Size: 'text-[15px]',
-        icon3: <SiTailwindcss/>,
-        icon3Label: 'Tailwind',
-        icon3Color: 'text-cyan-500',
-        icon3Size: 'text-xl'
-    },    
-    {
-        label: 'Nrby Users',
-        href: 'https://oswaldodm.github.io/nrby-users/',
-        repo: 'https://github.com/OswaldoDM/nrby-users',
-        img: nrby,
-        alt: 'nrby',
-        description: 'This was the technical assessment I did for Nrby. It includes the react select library',
-        icon1: <FaReact/>,
-        icon1Label: 'React',
-        icon1Color: 'text-sky-400',
-        icon1Size: 'text-xl',
-        icon2: <SiTypescript />,
-        icon2Label: 'Typescript',
-        icon2Color: 'text-blue-500',
-        icon2Size: 'text-[15px]',
-        icon3: <SiTailwindcss/>,
-        icon3Label: 'Tailwind',
-        icon3Color: 'text-cyan-500',
-        icon3Size: 'text-xl'
     },    
     {
         label: 'SpaceX App',
