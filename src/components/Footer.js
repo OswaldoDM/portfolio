@@ -7,7 +7,7 @@ export function Footer({open}){
     <>
     <section id='contact' className={`bg-white ${open && 'blur'}`}>
         <div className='container mx-auto'>            
-            <div className={`flex flex-col lg:flex-row justify-between items-center 
+            {/* <div className={`flex flex-col lg:flex-row justify-between items-center 
             text-center mb-16 lg:text-start lg:pl-20 lg:pr-32 xl:pb-5 xl:pl-40 xl:pr-48 
             xl:pt-5 2xl:pl-56 2xl:pr-96`}>
                 <h1 className="text-2xl font-extrabold mb-5 lg:mb-0 xl:text-[28px] pad-download">
@@ -29,8 +29,8 @@ export function Footer({open}){
                     <path  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                     </svg>
                 </a>
-            </div>
-            <div className="flex justify-between items-center px-5 pb-1 xl:pb-0 md:px-12">
+            </div> */}
+            <div className="flex justify-between items-center px-5 pb-1 xl:pb-2 md:px-12">
                 <a className="flex-shrink-0 flex items-center" href="mailto:oswaldoe1992@gmail.com">
                     <MdOutlineEmail className=""/>
                     <span className="font-normal text-sm ml-1">Oswaldoe1992@gmail.com</span>

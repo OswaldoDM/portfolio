@@ -6,7 +6,7 @@ export function NavBar({open, handleClick}) {
     <section className= "bg-white">
         
         <div className={`container mx-auto flex justify-between items-center 
-            px-5 py-2 border-b-[2px]`}>                
+            px-5 py-2 `}>                
             <h1 className='font-blanka text-4xl text-primary-black pb-2 2xl:pb-1'>
                 ODM
             </h1>        

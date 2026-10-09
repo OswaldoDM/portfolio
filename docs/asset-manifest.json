@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "./static/css/main.ed52f2a7.css",
-    "main.js": "./static/js/main.594faf7d.js",
+    "main.css": "./static/css/main.0d88ed20.css",
+    "main.js": "./static/js/main.df1705c0.js",
     "static/media/Space.png": "./static/media/Space.814e0f44348e716137c8.png",
     "static/media/travel.png": "./static/media/travel.deb0b40b187338593043.png",
+    "static/media/nrby.png": "./static/media/nrby.59504a5d38cdea752124.png",
     "static/media/MG.png": "./static/media/MG.6da4acd5d19aaa3a0658.png",
-    "static/media/nrby.png": "./static/media/nrby.14867c7892a8d99403b5.png",
     "static/media/Influencer1.png": "./static/media/Influencer1.df34bed5cb977553c07f.png",
     "static/media/infinity.png": "./static/media/infinity.94b69bd66fbe41260622.png",
     "static/media/portfolio.png": "./static/media/portfolio.138002627fa3783f8cf9.png",
@@ -17,11 +17,11 @@
     "static/media/express.svg": "./static/media/express.076c798a78385ade2dc698f1a1d92613.svg",
     "index.html": "./index.html",
     "static/media/neon.svg": "./static/media/neon.2c82c32d517e30b552e75c3ca0972edd.svg",
-    "main.ed52f2a7.css.map": "./static/css/main.ed52f2a7.css.map",
-    "main.594faf7d.js.map": "./static/js/main.594faf7d.js.map"
+    "main.0d88ed20.css.map": "./static/css/main.0d88ed20.css.map",
+    "main.df1705c0.js.map": "./static/js/main.df1705c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed52f2a7.css",
-    "static/js/main.594faf7d.js"
+    "static/css/main.0d88ed20.css",
+    "static/js/main.df1705c0.js"
   ]
 }
